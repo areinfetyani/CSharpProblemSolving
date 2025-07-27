@@ -4,12 +4,26 @@ This repository contains a collection of problem-solving exercises implemented i
 
 ## Problem List
 
-- **SecondMaxProblem** – Find the second largest number in an array
-- **FirstNonRepeatingCharacterProblem** – Return the first non-repeating character in a string
-- **MissingArrayProblem** – Find the missing number in a sequence from 1 to N
-- **InsertionSortProblem** – Sort an array using the Insertion Sort algorithm
-- **ArrayMaxProblem** – Return the maximum value in an array
-- **VowelCountProblem** – Count the number of vowels in a given string
+1. **SecondMaxProblem**  
+   Find the second largest number in an array.
+2. **FirstNonRepeatingCharacterProblem**  
+   Return the first non-repeating character in a string.
+3. **MissingArrayProblem**  
+   Find the missing number in a sequence from 1 to N.
+4. **InsertionSortProblem**  
+   Sort an array using the Insertion Sort algorithm.
+5. **ArrayMaxProblem**  
+   Return the maximum value in an array.
+6. **VowelCountProblem**  
+   Count the number of vowels in a given string.
+7. **ReverseStringProblem**  
+   Write a method that takes a string and returns it in reverse order.
+8. **MergeSortedArraysProblem**  
+   Merge two sorted arrays into one sorted array (without using built-in sort).
+9. **StringContainsOnlyDigitsProblem**  
+   Return true if a string contains only numeric digits.
+10. **MultithreadedPrimeFinderProblem**  
+   Use `Task` and `async/await` to find all prime numbers between 1 and 1,000,000 efficiently.
 
 ## How to Run
 
