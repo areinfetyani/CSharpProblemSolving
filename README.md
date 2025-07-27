@@ -29,10 +29,17 @@ Visual Studio 2022+
 Each class is self-contained and placed in the root of the project:
 
 CSharpProblemSet/
+
 ├── ArrayMaxProblem.cs
+
 ├── FirstNonRepeatingCharacterProblem.cs
+
 ├── InsertionSortProblem.cs
+
 ├── MissingArrayProblem.cs
+
 ├── SecondMaxProblem.cs
+
 ├── VowelCountProblem.cs
+
 ├── Program.cs
