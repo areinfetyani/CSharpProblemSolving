@@ -46,6 +46,24 @@ class Program
         Console.WriteLine("Total prime numbers found: " + primes.Count);
         Console.WriteLine("Primes Numbers between 1 and 1000000: " + string.Join(", ", primes));
 
+        // Problem 11: Subsets of Set
+        int[] subsetArray = { 1, 2, 3 };
+        List<List<int>> subsets = SubsetsOfSetProblem.SubsetsOfSet(subsetArray);
+        Console.WriteLine("Subsets of Set: ");
+        foreach (List<int> subset in subsets)
+        {
+            Console.WriteLine("[" + string.Join(", ", subset) + "]");
+        }
+
+        // Problem 12: Binary Search
+        int[] binarySearchArray = { 5, 16, 17, 28, 39, 100 };
+        int target = 28;
+        int it = BinarySearchProblem.BinarySearchIterative(binarySearchArray, target);
+        Console.WriteLine("Iterative -> Target " + target + " found at index: " + it);
+        int re = BinarySearchProblem.BinarySearchRecursive(binarySearchArray, target, 0, binarySearchArray.Length - 1 );
+        Console.WriteLine("Recursive -> Target " + target + " found at index: " + re);
+
+
         Console.WriteLine("Press Enter to exit...");
         Console.ReadLine();
     }
